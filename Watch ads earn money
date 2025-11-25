@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Ads Earn Money - Telegram Mini App</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+<h2>Watch Ads Earn Money</h2>
+
+<div class="card">
+<div style="display:flex;justify-content:space-between;align-items:center;">
+  <div>Remaining Today: <span id="remaining">20</span></div>
+  <div>Total Earned: <span id="earned">0.00000</span> TON</div>
+</div>
+<div id="ad-box">Click "Start Ad" to watch</div>
+<div class="progress"><div id="progressBar"></div></div>
+<div style="margin-top:10px;">
+  <button id="startBtn" class="btn btn-primary">Start Ad</button>
+  <button id="nextBtn" class="btn btn-outline">Next Ad</button>
+</div>
+<div style="margin-top:8px;" class="small">Watched Today: <span id="watched">0</span>/20</div>
+</div>
+
+<div class="card">
+<div><b>Referral Link</b></div>
+<div class="small" id="refLink">https://t.me/YourBot?start=REF123</div>
+</div>
+
+<div class="card">
+<div><b>Transactions</b></div>
+<div id="txList" class="small">No transactions yet.</div>
+</div>
+
+<div class="card" style="display:flex;justify-content:space-between;align-items:center;">
+<button id="withdrawSmall" class="btn btn-primary">Withdraw 0.0001 TON</button>
+<button id="withdrawAll" class="btn btn-outline">Withdraw All</button>
+</div>
+
+<div class="bottom-nav">
+<div>Home</div>
+<div>Dashboard</div>
+<div>Profile</div>
+</div>
+</div>
+
+<script src="https://cdn.start.io/start.js"></script>
+<script src="js/gptGemini.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
